@@ -1,4 +1,3 @@
-
 // Simulador
 let sustentabilidade = 0;
 
