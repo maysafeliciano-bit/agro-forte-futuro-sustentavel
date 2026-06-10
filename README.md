@@ -1,2 +1,12 @@
-# agro-forte-futuro-sustentavel
-Projeto Agrinho 2026 - Agro Forte, Futuro Sustentável.
+
+# EcoAgro 360
+
+**Projeto Agrinho 2026 - Agro Forte, Futuro Sustentável**
+
+Este projeto apresenta uma fazenda sustentável que une **produção agrícola** e **preservação ambiental**.  
+O site contém:
+
+- Informações sobre produção inteligente
+- Preservação do meio ambiente
+- Simulador de sustentabilidade
+- Quiz interativo
