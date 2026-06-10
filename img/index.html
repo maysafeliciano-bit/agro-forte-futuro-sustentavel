@@ -1,1 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte - Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <img src="img/banner.png" alt="Agro Forte" class="banner">
+        <h1>Agro Forte, Futuro Sustentável</h1>
+        <p>Produção agrícola e preservação do meio ambiente lado a lado</p>
+    </header>
 
+    <!-- Seção Produção -->
+    <section id="producao">
+        <h2>Produção Inteligente</h2>
+        <p>Conheça tecnologias que aumentam a produção sem prejudicar o meio ambiente:</p>
+        <ul>
+            <li>Drones para monitoramento das lavouras</li>
+            <li>Sensores de solo e clima</li>
+            <li>Máquinas agrícolas automatizadas</li>
+        </ul>
+        <img src="img/drone-agricola.png" alt="Drone no campo" class="imagem">
+    </section>
+
+    <!-- Seção Meio Ambiente -->
+    <section id="meio-ambiente">
+        <h2>Preservação Ambiental</h2>
+        <p>Saiba como proteger o meio ambiente enquanto produz alimentos:</p>
+        <ul>
+            <li>Irrigação inteligente que economiza água</li>
+            <li>Uso de energia solar nas fazendas</li>
+            <li>Áreas de reflorestamento e preservação</li>
+        </ul>
+        <img src="img/energia-solar.png" alt="Energia solar no campo" class="imagem">
+    </section>
+
+    <!-- Seção Simulador -->
+    <section id="simulador">
+        <h2>Simulador de Sustentabilidade</h2>
+        <p>Escolha ações para tornar a fazenda mais sustentável:</p>
+        <button onclick="adicionarSolar()">Instalar energia solar</button>
+        <button onclick="adicionarIrrigacao()">Usar irrigação inteligente</button>
+        <button onclick="plantarArvores()">Plantar árvores</button>
+        <div id="resultado">
+            <p>Sustentabilidade: 0%</p>
+        </div>
+    </section>
+
+    <!-- Seção Quiz -->
+    <section id="quiz">
+        <h2>Quiz Rápido</h2>
+        <p>Você sabe como unir produção e sustentabilidade?</p>
+        <p>Qual tecnologia ajuda a economizar água na fazenda?</p>
+        <button onclick="responderQuiz(true)">Irrigação inteligente</button>
+        <button onclick="responderQuiz(false)">Trator automático</button>
+        <p id="resposta-quiz"></p>
+    </section>
+
+    <footer>
+        <p>Projeto Agrinho 2026 - Agro Forte, Futuro Sustentável</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
